@@ -1,0 +1,24 @@
+{
+  "name": "productly",
+  "version": "1.0.0",
+  "description": "The design thinking superpowers",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch ./sass/style.scss ./sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OKitel/productly.git"
+  },
+  "keywords": [
+    "design",
+    "tools"
+  ],
+  "author": "OKitel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OKitel/productly/issues"
+  },
+  "homepage": "https://github.com/OKitel/productly#readme"
+}
