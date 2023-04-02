@@ -1,13 +1,24 @@
+@import './base/normalize';
+
+//Abstract
 @import './abstract/constants.scss';
+@import './abstract/placeholders';
+@import './abstract/mixins';
 
 //Base
 @import './base/base';
 @import './base/buttons';
+@import './base/logo';
+@import './base/icons';
 
 //Layouts
 @import './layouts/wrapper';
 @import './layouts/header';
+@import './layouts/columns';
 
 // Components
 @import './components/promo';
 @import './components/contact-us';
+@import './components/navigation';
+@import './components/tools';
+@import './components/strategies';
