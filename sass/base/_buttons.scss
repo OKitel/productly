@@ -37,6 +37,16 @@
   @extend %font-add;
   display: inline-flex;
   align-items: center;
+  @extend %transition;
+}
+
+.link-button:hover {
+  color: $color-additional;
+  text-decoration: underline;
+
+  .icon_play {
+    background-image: url('../../img/icons/play-pink.svg');
+  }
 }
 
 .link-button__text {
