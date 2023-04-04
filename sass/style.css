@@ -321,7 +321,7 @@ article {
   box-sizing: border-box;
 }
 
-.navigation__link, .logo-path {
+.footer-navigation__links a, .navigation__link, .logo-path {
   transition: all 0.3s ease-out;
 }
 
@@ -329,7 +329,7 @@ article {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
-.promo__text, .link-button, h1 {
+.footer-navigation__links, .promo__text, .link-button, h1 {
   font-family: "Poppins", Verdana, sans-serif;
 }
 
@@ -387,6 +387,7 @@ h5 {
 
 a {
   color: #2f281e;
+  text-decoration: none;
 }
 
 .button {
@@ -654,6 +655,7 @@ a {
 }
 .contact-us__content_text a {
   font-size: 2.5rem;
+  text-decoration: none;
 }
 
 .navigation {
@@ -732,6 +734,37 @@ a {
 
 .strategy__name {
   margin: 0 0 29px;
+}
+
+.footer {
+  padding: 60px 0 70px;
+}
+
+.footer__wrapper {
+  display: flex;
+}
+
+.footer-navigation {
+  flex-grow: 1;
+  padding-left: 152px;
+}
+
+.footer-navigation__title {
+  margin: 0 0 15px;
+}
+
+.footer-navigation__links {
+  list-style: none;
+}
+.footer-navigation__links a {
+  color: #544837;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 3.5rem;
+}
+.footer-navigation__links a:hover {
+  color: #ff9900;
 }
 
 /*# sourceMappingURL=style.css.map */
